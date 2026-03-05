@@ -2,21 +2,58 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Meu Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Analista de BI & Ciência de Dados</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Olá, eu sou o [Seu Nome]</h1>
-        <p>Desenvolvedor em formação</p>
+
+    <nav id="navbar">
+        <div class="logo">Portfólio</div>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span class="highlight">Henrique Reis</span></h1>
+            <p id="typewriter">Analista de BI focado em Ciência de Dados.</p>
+            <a href="#projetos" class="btn">Ver Projetos</a>
+        </div>
     </header>
 
-    <section id="sobre">
+    <section id="sobre" class="section">
         <h2>Sobre Mim</h2>
-        <p>Estou aprendendo HTML, CSS e JS para criar projetos incríveis!</p>
+        <p>Atualmente atuo como Analista de BI, transformando dados em decisões. Tenho focado minha transição para Ciência de Dados, explorando modelos preditivos e estatística avançada.</p>
     </section>
 
-    <button id="botaoCor">Mudar Cor de Fundo</button>
+    <section id="skills" class="section">
+        <h2>Minhas Hard Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">Python</div>
+            <div class="skill-card">SQL</div>
+            <div class="skill-card">Power BI / Tableau</div>
+            <div class="skill-card">Estatística</div>
+            <div class="skill-card">Machine Learning</div>
+            <div class="skill-card">ETL</div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <h2>Projetos de Dados</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Análise Exploratória: [Nome do Projeto]</h3>
+                <p>Descrição curta do que você resolveu com este projeto.</p>
+                <a href="#" class="project-link">Ver no GitHub</a>
+            </div>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
