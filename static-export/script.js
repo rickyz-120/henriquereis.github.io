@@ -6,7 +6,7 @@
 // ---------- DADOS DO PORTFOLIO (EDITE AQUI) ----------
 const portfolioData = {
   personalInfo: {
-    name: "Seu Nome",
+    name: "Henrique Reis",
     role: "Analista de BI",
     tagline: "Transformando dados em decisoes estrategicas",
     description:
