@@ -17,8 +17,8 @@ const portfolioData = {
   },
 
   socialLinks: {
-    linkedin: "https://linkedin.com/in/seu-perfil",
-    github: "https://github.com/seu-usuario",
+    linkedin: "https://www.linkedin.com/in/henrique-reis-br/",
+    github: "https://github.com/rickyz-120",
     // Adicione mais links conforme necessario:
     // twitter: "https://twitter.com/seu-usuario",
     // kaggle: "https://kaggle.com/seu-usuario",
