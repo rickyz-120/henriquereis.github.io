@@ -8,11 +8,11 @@ const portfolioData = {
   personalInfo: {
     name: "Henrique Reis",
     role: "Analista de BI",
-    tagline: "Transformando dados em decisoes estrategicas",
+    tagline: "Transformando dados em decisões estratégicas",
     description:
       "Analista de Business Intelligence com paixao por Ciencia de Dados. Especializado em transformar dados brutos em insights acionaveis, construindo dashboards interativos e modelos preditivos que impulsionam decisoes de negocio.",
-    location: "Brasil",
-    email: "seu.email@exemplo.com",
+    location: "Brasil - Curitiba",
+    email: "rickbreis2016@gmail.com",
     availability: "Disponivel para projetos",
   },
 
@@ -27,55 +27,55 @@ const portfolioData = {
   aboutMe: {
     title: "Sobre Mim",
     paragraphs: [
-      "Sou um profissional apaixonado por dados, atuando como Analista de BI com foco crescente em Ciencia de Dados. Minha jornada comecou na area de negocios, o que me deu uma visao unica de como os dados podem transformar organizacoes.",
-      "Atualmente, trabalho criando dashboards e relatorios que auxiliam a tomada de decisao em nivel estrategico. Estou em constante evolucao, aprofundando meus conhecimentos em Machine Learning, Estatistica e programacao para entregar solucoes cada vez mais robustas.",
-      "Acredito que a verdadeira magia acontece na interseccao entre dados e negocios - e e exatamente nesse espaco que eu opero.",
+      "Sou um profissional de dados, atuando como Analista de BI com foco crescente em Ciência de Dados. Minha jornada comecou na área de negócios, o que me deu uma visão de como os dados podem transformar organizações.",
+      "Atualmente, trabalho criando dashboards e relatórios que auxiliam a tomada de decisão em nível estratégico. Sigo aprofundando meus conhecimentos em Machine Learning, Estatística e programação para entregar soluções cada vez mais robustas.",
+      "Acredito que a verdadeira magia acontece na intersecção entre dados e negócios - e é exatamente nesse espaço que opero.",
     ],
   },
 
   // Categorias de skills - adicione, remova ou edite livremente
-  // Niveis: "Avancado" | "Intermediario" | "Basico"
+  // Niveis: "Avançado" | "Intermediário" | "Básico"
   // Icones disponiveis: bar-chart, pie-chart, line-chart, layout, code, database,
   //   terminal, braces, table, brain, calculator, trending-up, cloud, server
   skillCategories: [
     {
       category: "Visualizacao de Dados",
-      description: "Ferramentas para criar dashboards e relatorios interativos",
+      description: "Ferramentas para criar dashboards e relatórios interativos",
       skills: [
-        { name: "Power BI", level: "Avancado", icon: "bar-chart" },
-        { name: "Tableau", level: "Intermediario", icon: "pie-chart" },
-        { name: "Looker Studio", level: "Intermediario", icon: "line-chart" },
-        { name: "Metabase", level: "Basico", icon: "layout" },
+        { name: "Power BI", level: "Avançado", icon: "bar-chart" },
+        { name: "Tableau", level: "Básico", icon: "pie-chart" },
+        { name: "Looker Studio", level: "Intermediário", icon: "line-chart" },
+        { name: "Metabase", level: "Básico", icon: "layout" },
       ],
     },
     {
       category: "Linguagens & Programacao",
       description: "Linguagens utilizadas no dia a dia para analise e automacao",
       skills: [
-        { name: "Python", level: "Avancado", icon: "code" },
-        { name: "SQL", level: "Avancado", icon: "database" },
-        { name: "R", level: "Intermediario", icon: "terminal" },
-        { name: "DAX / M", level: "Avancado", icon: "braces" },
+        { name: "Python", level: "Avançado", icon: "code" },
+        { name: "SQL", level: "Avançado", icon: "database" },
+        { name: "R", level: "Intermediário", icon: "terminal" },
+        { name: "DAX / M", level: "Avançado", icon: "braces" },
       ],
     },
     {
       category: "Ciencia de Dados & ML",
       description: "Bibliotecas e frameworks para modelagem e analise",
       skills: [
-        { name: "Pandas", level: "Avancado", icon: "table" },
-        { name: "Scikit-learn", level: "Intermediario", icon: "brain" },
-        { name: "NumPy", level: "Intermediario", icon: "calculator" },
-        { name: "Matplotlib / Seaborn", level: "Intermediario", icon: "trending-up" },
+        { name: "Pandas", level: "Avançado", icon: "table" },
+        { name: "Scikit-learn", level: "Intermediário", icon: "brain" },
+        { name: "NumPy", level: "Intermediário", icon: "calculator" },
+        { name: "Matplotlib / Seaborn", level: "Intermediário", icon: "trending-up" },
       ],
     },
     {
       category: "Banco de Dados & Cloud",
       description: "Infraestrutura e armazenamento de dados",
       skills: [
-        { name: "PostgreSQL", level: "Avancado", icon: "database" },
-        { name: "MySQL", level: "Intermediario", icon: "database" },
-        { name: "BigQuery", level: "Intermediario", icon: "cloud" },
-        { name: "Azure", level: "Basico", icon: "server" },
+        { name: "PostgreSQL", level: "Avançado", icon: "database" },
+        { name: "MySQL", level: "Intermediário", icon: "database" },
+        { name: "BigQuery", level: "Intermediário", icon: "cloud" },
+        { name: "Azure", level: "Básico", icon: "server" },
       ],
     },
   ],
@@ -166,19 +166,19 @@ function getIcon(name) {
 // ---------- HELPER: skill level -> bar width ----------
 function levelToWidth(level) {
   switch (level) {
-    case "Avancado": return "100%";
-    case "Intermediario": return "66%";
-    case "Basico": return "33%";
+    case "Avançado": return "100%";
+    case "Intermediário": return "66%";
+    case "Básico": return "33%";
     default: return "50%";
   }
 }
 
 function levelToClass(level) {
   switch (level) {
-    case "Avancado": return "level-avancado";
-    case "Intermediario": return "level-intermediario";
-    case "Basico": return "level-basico";
-    default: return "level-intermediario";
+    case "Avançado": return "level-Avançado";
+    case "Intermediário": return "level-Intermediário";
+    case "Básico": return "level-Básico";
+    default: return "level-Intermediário";
   }
 }
 
@@ -450,9 +450,9 @@ function buildAbout(d) {
               <h3>Foco Atual</h3>
               <ul>
                 <li><span class="focus-dot"></span> Business Intelligence</li>
-                <li><span class="focus-dot"></span> Ciencia de Dados</li>
+                <li><span class="focus-dot"></span> Ciência de Dados</li>
                 <li><span class="focus-dot"></span> Machine Learning</li>
-                <li><span class="focus-dot"></span> Analise Exploratoria</li>
+                <li><span class="focus-dot"></span> Análise Exploratória</li>
               </ul>
             </div>
 
